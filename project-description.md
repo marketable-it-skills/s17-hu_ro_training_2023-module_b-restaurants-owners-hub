@@ -1,14 +1,24 @@
-# Test Project Outline – Module A – DineEase Showcase Website
+# Test Project Outline – Module B – Restaurant Owners' Hub
+
+## Competition time
+
+4 hours
+
+## Introduction
 
 **DineEase**, a small startup based in Hungary, initially made waves in the restaurant industry with their innovative restaurant software. Now, they are expanding their horizons with a brand new service that aims to revolutionize how people discover, explore, and engage with restaurants. Introducing DineEase, the all-in-one portal and progressive web application designed to enhance the dining experience. Visitors can choose between restaurants, view the full menu of any restaurant, read reviews from previous guests about the restaurant service and food. They can also book a table at the restaurant of their choice and order and pay through the website or the app.
 
-# Module B - Restaurant Owners' Hub
+## General Description of Project and Tasks
 
-In this modul you will develop a server-side rendered administration page where restaurant owners can easily manage their restaurant profiles and data. This hub empowers restaurant owners to update menus, respond to reviews, and keep their information up-to-date, ensuring a seamless and engaging experience for customers.Choose a suitable server-side framework from the available options in the provided Infrastructure List. Carefully review the provided detailed description of the dynamic website's account management functionalities. Understand the various tasks and actions that users need to perform within their accounts.
+In this module you will develop a server-side rendered administration page where restaurant owners can easily manage their restaurant profiles and data. This hub empowers restaurant owners to update menus, respond to reviews, and keep their information up-to-date, ensuring a seamless and engaging experience for customers.
 
-## Task List:
+Choose a suitable server-side framework from the available options in the provided Infrastructure List. Carefully review the provided detailed description of the dynamic website's account management functionalities. Understand the various tasks and actions that users need to perform within their accounts.
 
-### 1. Database Design:
+## Requirements
+
+The goal of this project is to create a comprehensive restaurant management system that enables restaurant owners to efficiently manage their business operations through a secure, server-side rendered web application. The system must support user authentication, role-based access control, and provide intuitive interfaces for managing restaurant data, menus, reservations, and customer reviews.
+
+### Database Design
 
 Design a robust and efficient database schema to accommodate user accounts and related data.
 Identify the necessary tables, relationships, and fields required for account management.
@@ -17,7 +27,7 @@ Utilize the provided example CSV files to import initial data into the database.
 Develop a script or mechanism to parse and import CSV data into relevant database tables.
 Address any data normalization challenges that may arise from the provided CSV data.
 
-### 2. User Authentication and Security:
+### User Authentication and Security
 
 - Implement a secure user authentication system to enable users to create and access accounts.
   Utilize encryption and hashing techniques to store and manage user passwords securely. Implement account locking mechanisms to enhance account security.
@@ -35,29 +45,53 @@ Address any data normalization challenges that may arise from the provided CSV d
 
 - When the authenticated user click on the Logout link they will be logged out and redirected to the login page.
 
-### 3. Restaurant's dashboard:
+### Restaurant Dashboard
 
 Create user-friendly interfaces where restaurant admin user can view and edit their respective restaurant's data.
 Follow the provided wireframe in implementing the dashboard. All the subpages of the dashboard should contain a "Back to the dahboard" and a "Logout" link.
 
-- **Edit profile**
-  When the restaurant admin click on the "Edit profile" button they will be redirected to the Edit profile page. On that page all the profile data can be modified and saved.
-- **Menu management**
-  Design the interface for restaurant owners to manage their menus.
-  Implement CRUD operations for menu items, including adding, updating, and deleting dishes.
-  Allow the inclusion of dish names and prices.
-- **Reservation Handling**
-  It will be the page for a reservation system with the following feautres:
-  _ restaurant owners can manage incoming reservations
-  _ Displaying a list of reservations with relevant details like date, time, party size, and contact information \* Enable the confirmation or cancellation of reservations
+#### Edit Profile
+When the restaurant admin click on the "Edit profile" button they will be redirected to the Edit profile page. On that page all the profile data can be modified and saved.
 
-- **Review Management**
-  Implement a feature for restaurant owners to manage customer reviews.
-  Display customer feedback along with ratings and comments.
-  In the near feature the page will also allow restaurant owners to post thoughtful responses to reviews, but you do not need to implemet this feature right now.
+#### Menu Management
+Design the interface for restaurant owners to manage their menus.
+Implement CRUD operations for menu items, including adding, updating, and deleting dishes.
+Allow the inclusion of dish names and prices.
 
-### 4. OWASP Guidelines Implementation:
+#### Reservation Handling
+It will be the page for a reservation system with the following features:
+- Restaurant owners can manage incoming reservations
+- Displaying a list of reservations with relevant details like date, time, party size, and contact information
+- Enable the confirmation or cancellation of reservations
+
+#### Review Management
+Implement a feature for restaurant owners to manage customer reviews.
+Display customer feedback along with ratings and comments.
+In the near future the page will also allow restaurant owners to post thoughtful responses to reviews, but you do not need to implement this feature right now.
+
+### Security Implementation (OWASP Guidelines)
 
 Implement security measures to protect against common web vulnerabilities (OWASP guidelines).
 Sanitize and validate user inputs to prevent SQL injection and cross-site scripting (XSS) attacks.
 Implement CSRF (Cross-Site Request Forgery) protection to ensure secure form submissions.
+
+## Assessment
+
+The solution will be evaluated using the following methods and tools:
+
+- **Functionality Testing**: Testing of all implemented features including user authentication, database operations, and user interfaces
+- **Security Assessment**: Evaluation of security measures against common web vulnerabilities
+- **Code Quality Review**: Assessment of code structure, documentation, and best practices
+- **Browser Testing**: Testing across different browsers to ensure compatibility
+- **Database Design Review**: Evaluation of database schema design and data integrity
+
+## Mark distribution
+
+| WSOS SECTION | Description                            | Points |
+|--------------|----------------------------------------|--------|
+| 1            | Work organization and self-management  | 3      |
+| 2            | Communication and interpersonal skills | 2      |
+| 3            | Design Implementation                  | 4      |
+| 4            | Front-End Development                  | 6      |
+| 5            | Back-End Development                   | 10     |
+| **Total**    |                                        | **25** |

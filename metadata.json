@@ -1,12 +1,12 @@
 {
-  "id": 8,
-  "name": "HU-RO Training 2023 - Module A",
-  "displayName": "DineEase Showcase Website",
-  "description": "Create a captivating promotional website for DineEase, a revolutionary dining platform. Build a responsive HTML/CSS website showcasing restaurant search, featured restaurants, testimonials, and company information to attract new users to the DineEase platform.",
-  "url": "https://github.com/marketable-it-skills/s17-hu_ro_training_2023-module_a-dinease-showcase-website",
+  "id": 9,
+  "name": "HU-RO Training 2023 - Module B",
+  "displayName": "Restaurant Owners' Hub",
+  "description": "Develop a server-side rendered administration system for DineEase restaurant owners. Create a comprehensive management hub with user authentication, role-based access control, menu management, reservation handling, and review management capabilities.",
+  "url": "https://github.com/marketable-it-skills/s17-hu_ro_training_2023-module_b-restaurants-owners-hub",
   "skillDomainIds": [1],
   "competition": "Hungary-Romania Training 2023",
-  "estTime": 3,
+  "estTime": 4,
   "authors": [
     {
       "name": "Zoltan Sisak",
@@ -21,13 +21,14 @@
       "url": "https://www.linkedin.com/in/0l1v3rr/"
     }
   ],
-  "technologies": ["HTML", "CSS", "Responsive Design", "WCAG", "SEO"],
+  "technologies": ["Server-Side Rendering", "Database Design", "Authentication", "PHP", "Laravel", "Node.js", "Express", "MySQL", "PostgreSQL"],
   "tags": [
-    "frontend",
-    "responsive",
-    "accessibility",
-    "seo",
-    "restaurant",
-    "promotional-website"
+    "backend",
+    "server-side",
+    "database",
+    "authentication",
+    "admin-panel",
+    "restaurant-management",
+    "security"
   ]
 }

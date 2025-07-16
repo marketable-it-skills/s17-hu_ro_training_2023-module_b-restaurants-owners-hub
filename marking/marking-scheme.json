@@ -1,0 +1,320 @@
+{
+  "totalMark": 25,
+  "wsosSections": {
+    "1": "Work organization and self-management",
+    "2": "Communication and interpersonal skills",
+    "3": "Design Implementation",
+    "4": "Front-End Development",
+    "5": "Back-End Development"
+  },
+  "subCriterions": [
+    {
+      "name": "Database Design and Implementation",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Database schema design with proper normalization and relationships",
+          "wsosSection": 5,
+          "judgementScoreDescription": [
+            "No database schema or poorly designed structure",
+            "Basic schema with some normalization issues",
+            "Well-designed schema with proper relationships and normalization",
+            "Excellent schema design with optimal structure and data integrity"
+          ],
+          "maxMark": 2.5
+        },
+        {
+          "type": "measurement",
+          "description": "CSV data import functionality",
+          "extraDescription": "Successful import of initial data from provided CSV files",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No data import functionality"},
+              {"value": 0.5, "description": "Partial data import with errors"},
+              {"value": 1, "description": "Complete data import with proper handling"}
+            ]
+          },
+          "wsosSection": 5,
+          "maxMark": 1
+        }
+      ]
+    },
+    {
+      "name": "User Authentication and Security",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Secure user authentication system with password hashing",
+          "wsosSection": 5,
+          "judgementScoreDescription": [
+            "No authentication system or insecure implementation",
+            "Basic authentication with some security measures",
+            "Secure authentication with proper password hashing",
+            "Excellent authentication with comprehensive security measures"
+          ],
+          "maxMark": 2
+        },
+        {
+          "type": "measurement",
+          "description": "Role-based access control (dineEasyAdmin vs restaurantAdmin)",
+          "extraDescription": "Proper implementation of two user roles with appropriate access restrictions",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No role-based access control"},
+              {"value": 0.5, "description": "Basic roles with some access issues"},
+              {"value": 1, "description": "Proper role-based access control"}
+            ]
+          },
+          "wsosSection": 5,
+          "maxMark": 1
+        },
+        {
+          "type": "measurement",
+          "description": "Account lockout mechanism after failed login attempts",
+          "extraDescription": "Lock accounts after 3 failed attempts for 30 seconds",
+          "calculation": {
+            "type": "pass-or-fail",
+            "passDescription": "Account lockout mechanism implemented correctly",
+            "failDescription": "No account lockout or incorrect implementation"
+          },
+          "wsosSection": 5,
+          "maxMark": 1
+        },
+        {
+          "type": "measurement",
+          "description": "OWASP security guidelines implementation",
+          "extraDescription": "Protection against SQL injection, XSS, and CSRF attacks",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No security measures implemented"},
+              {"value": 0.5, "description": "Some security measures but incomplete"},
+              {"value": 1, "description": "Comprehensive security implementation"}
+            ]
+          },
+          "wsosSection": 5,
+          "maxMark": 1
+        }
+      ]
+    },
+    {
+      "name": "Restaurant Dashboard Interface",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "User-friendly dashboard interface design",
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "Poor or no dashboard interface",
+            "Basic dashboard with usability issues",
+            "Good dashboard with clear navigation and functionality",
+            "Excellent dashboard with intuitive design and user experience"
+          ],
+          "maxMark": 2
+        },
+        {
+          "type": "measurement",
+          "description": "Edit Profile functionality",
+          "extraDescription": "Restaurant admin can view and edit profile data",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No edit profile functionality"},
+              {"value": 0.5, "description": "Basic edit profile with limited fields"},
+              {"value": 1, "description": "Complete edit profile functionality"}
+            ]
+          },
+          "wsosSection": 4,
+          "maxMark": 1
+        },
+        {
+          "type": "measurement",
+          "description": "Navigation consistency across dashboard pages",
+          "extraDescription": "All subpages contain 'Back to dashboard' and 'Logout' links",
+          "calculation": {
+            "type": "pass-or-fail",
+            "passDescription": "Consistent navigation on all dashboard pages",
+            "failDescription": "Missing or inconsistent navigation elements"
+          },
+          "wsosSection": 4,
+          "maxMark": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Menu Management System",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "CRUD operations for menu items",
+          "wsosSection": 5,
+          "judgementScoreDescription": [
+            "No menu management functionality",
+            "Basic CRUD with limited functionality",
+            "Good CRUD operations with proper validation",
+            "Excellent CRUD system with comprehensive features"
+          ],
+          "maxMark": 2
+        },
+        {
+          "type": "measurement",
+          "description": "Menu item data fields (name and price)",
+          "extraDescription": "Proper handling of dish names and prices",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No menu item data handling"},
+              {"value": 0.5, "description": "Basic data handling with validation issues"},
+              {"value": 1, "description": "Complete menu item data handling with validation"}
+            ]
+          },
+          "wsosSection": 5,
+          "maxMark": 1
+        }
+      ]
+    },
+    {
+      "name": "Reservation Handling System",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Reservation management interface",
+          "wsosSection": 4,
+          "judgementScoreDescription": [
+            "No reservation management functionality",
+            "Basic reservation display with limited features",
+            "Good reservation management with proper functionality",
+            "Excellent reservation system with comprehensive features"
+          ],
+          "maxMark": 1.5
+        },
+        {
+          "type": "measurement",
+          "description": "Reservation details display",
+          "extraDescription": "Shows date, time, party size, and contact information",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No reservation details display"},
+              {"value": 0.5, "description": "Partial reservation details"},
+              {"value": 1, "description": "Complete reservation details display"}
+            ]
+          },
+          "wsosSection": 4,
+          "maxMark": 1
+        },
+        {
+          "type": "measurement",
+          "description": "Reservation confirmation and cancellation",
+          "extraDescription": "Ability to confirm or cancel reservations",
+          "calculation": {
+            "type": "pass-or-fail",
+            "passDescription": "Reservation confirmation and cancellation functionality works",
+            "failDescription": "Missing or non-functional reservation management"
+          },
+          "wsosSection": 5,
+          "maxMark": 1
+        }
+      ]
+    },
+    {
+      "name": "Review Management System",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Customer review display and management",
+          "wsosSection": 4,
+          "judgementScoreDescription": [
+            "No review management functionality",
+            "Basic review display with limited features",
+            "Good review management with proper display",
+            "Excellent review system with comprehensive features"
+          ],
+          "maxMark": 1.5
+        },
+        {
+          "type": "measurement",
+          "description": "Review data display (ratings and comments)",
+          "extraDescription": "Proper display of customer feedback with ratings",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No review data display"},
+              {"value": 0.5, "description": "Basic review display"},
+              {"value": 1, "description": "Complete review data display with ratings"}
+            ]
+          },
+          "wsosSection": 4,
+          "maxMark": 1
+        }
+      ]
+    },
+    {
+      "name": "Code Quality and Organization",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Code structure and organization",
+          "wsosSection": 1,
+          "judgementScoreDescription": [
+            "Poor code structure with no organization",
+            "Basic code structure with some organization",
+            "Good code structure with proper organization",
+            "Excellent code structure with best practices"
+          ],
+          "maxMark": 2
+        },
+        {
+          "type": "measurement",
+          "description": "Server-side framework utilization",
+          "extraDescription": "Proper use of chosen server-side framework features",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No framework or poor utilization"},
+              {"value": 0.5, "description": "Basic framework usage"},
+              {"value": 1, "description": "Proper framework utilization with best practices"}
+            ]
+          },
+          "wsosSection": 5,
+          "maxMark": 1
+        }
+      ]
+    },
+    {
+      "name": "Project Documentation and Presentation",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Project documentation and setup instructions",
+          "wsosSection": 2,
+          "judgementScoreDescription": [
+            "No documentation or setup instructions",
+            "Basic documentation with limited instructions",
+            "Good documentation with clear setup process",
+            "Excellent documentation with comprehensive instructions"
+          ],
+          "maxMark": 1
+        },
+        {
+          "type": "measurement",
+          "description": "Professional presentation and communication",
+          "extraDescription": "Clear communication during project demonstration",
+          "calculation": {
+            "type": "judgement",
+            "judgementScoreDescription": [
+              "Poor communication and presentation",
+              "Basic communication with some clarity",
+              "Good communication with clear explanations",
+              "Excellent communication and professional presentation"
+            ]
+          },
+          "wsosSection": 2,
+          "maxMark": 1
+        }
+      ]
+    }
+  ]
+}

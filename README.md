@@ -2,11 +2,11 @@
 
 ## Title of the Project
 
-DineEase Showcase Website
+Restaurant Owners' Hub
 
 ## Short Description
 
-Create a captivating promotional website for DineEase, a revolutionary dining platform. Build a responsive HTML/CSS website showcasing restaurant search, featured restaurants, testimonials, and company information to attract new users to the DineEase platform.
+Develop a server-side rendered administration system for DineEase restaurant owners. Create a comprehensive management hub with user authentication, role-based access control, menu management, reservation handling, and review management capabilities.
 
 ## Skill domain(s)
 
@@ -14,7 +14,7 @@ Create a captivating promotional website for DineEase, a revolutionary dining pl
 
 ## Task Origin
 
-This project task is based on test projects from the Hungary-Romania Training 2023 Module A competition submitted by [Zoltan Sisak](https://www.linkedin.com/in/zoltan-sisak/), [Janos Hidvegi](https://www.linkedin.com/in/j%C3%A1nos-hidv%C3%A9gi-3b19591b1/), and [Oliver Mrakovics](https://www.linkedin.com/in/0l1v3rr/). Tasks from these competitions are updated, modularized, and standardized to form the basis of the project task repository within the Erasmus+ "Marketable IT Skills" project.
+This project task is based on test projects from the Hungary-Romania Training 2023 Module B competition submitted by [Zoltan Sisak](https://www.linkedin.com/in/zoltan-sisak/), [Janos Hidvegi](https://www.linkedin.com/in/j%C3%A1nos-hidv%C3%A9gi-3b19591b1/), and [Oliver Mrakovics](https://www.linkedin.com/in/0l1v3rr/). Tasks from these competitions are updated, modularized, and standardized to form the basis of the project task repository within the Erasmus+ "Marketable IT Skills" project.
 
 ## Content
 
