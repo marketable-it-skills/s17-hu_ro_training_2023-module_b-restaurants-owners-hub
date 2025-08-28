@@ -1,5 +1,5 @@
 {
-  "id": 9,
+  "id": 12,
   "name": "HU-RO Training 2023 - Module B",
   "displayName": "Restaurant Owners' Hub",
   "description": "Develop a server-side rendered administration system for DineEase restaurant owners. Create a comprehensive management hub with user authentication, role-based access control, menu management, reservation handling, and review management capabilities.",
@@ -21,7 +21,7 @@
       "url": "https://www.linkedin.com/in/0l1v3rr/"
     }
   ],
-  "technologies": ["Server-Side Rendering", "Database Design", "Authentication", "PHP", "Laravel", "Node.js", "Express", "MySQL", "PostgreSQL"],
+  "technologies": ["Server-Side Rendering", "Database Design", "Authentication", "PHP", "Laravel", "Node.js", "Express", "MySQL"],
   "tags": [
     "backend",
     "server-side",
